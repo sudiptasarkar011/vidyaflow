@@ -17,4 +17,4 @@ def calculate_cost(text, model="gemini"):
     return tokens, cost
 
 def format_error(e):
-    return f"⚠️ System Error: {str(e)}. Please try refining your query."
+    return f"System error: {str(e)}. Please try refining your query."

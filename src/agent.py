@@ -23,7 +23,7 @@ class ResearchAgent:
             cached_result = self.memory.search_memory(user_query)
             if cached_result:
                 return {
-                    "content": f"**[MEMORY HIT 🧠]** (Retrieved from Qdrant, 0s latency)\n\n{cached_result['content']}",
+                    "content": f"**[MEMORY HIT]** (Retrieved from Qdrant, 0s latency)\n\n{cached_result['content']}",
                     "tokens": 0,
                     "cost": 0.0,
                     "status": "success",

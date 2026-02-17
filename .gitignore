@@ -1,1 +1,12 @@
 .env
+chat_history.json
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+qdrant_db/
+.qdrant/.DS_Store
+.idea/
+.vscode/
+*.log
